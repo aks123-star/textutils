@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Templates is working</title>
+</head>
+<body>
+<h1>Enter your text here</h1>
+<form action="/analyze" method="get">
+    <textarea name="text" style="margin: 0px; height: 241px; width: 680px;"></textarea><br>
+    <input type="checkbox" name="removepunc">remove punctuation<br>
+    <input type="checkbox" name="caps">CAPITALIZE ALL CHARACTERS<br>
+    <input type="checkbox" name="newlineremove">remove new lines<br>
+    <input type="checkbox" name="extraspaceremover">remove extra space<br>
+    <input type="checkbox" name="charcount">count characters<br>
+    <button>analyze text</button>
+</form>
+</body>
+</html>
